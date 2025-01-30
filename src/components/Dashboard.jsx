@@ -38,186 +38,187 @@ const Dashboard = () => {
 
       <ItemsComponent type="giftsandarts" name="Gifts and Arts" />
 
-      <div className="flex items-center justify-center gap-6">
-        <div className="rounded-xl overflow-hidden   h-[300px]">
-          <img
-            src={jewelleryImage}
-            className=" object-contain"
-            alt="Image"
-          />
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-center">
+  <div className="rounded-xl overflow-hidden  flex justify-center">
+    <img
+      src={jewelleryImage}
+      className="object-contain w-full h-full"
+      alt="Jewellery"
+    />
+  </div>
 
-        <div className=" rounded-xl overflow-hidden  h-[300px]">
-          <img
-            src={cowdungproductImage}
-            alt=""
-            className=" object-contain"    
-          />
-        </div>
-      </div>
+  <div className="rounded-xl overflow-hidden  flex justify-center">
+    <img
+      src={cowdungproductImage}
+      alt="Cow Dung Product"
+      className="object-contain w-full h-full"
+    />
+  </div>
+</div>
+
 
       <ItemsComponent type="fooditems" name="Food Items" />
 
 
-      <div className="flex items-center justify-center gap-6">
-        <div className="rounded-xl overflow-hidden   h-[300px]">
-          <img
-            src={brossidolsImage}
-            className=" object-contain"
-            alt="Image"
-          />
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-center">
+  <div className="rounded-xl overflow-hidden  flex justify-center">
+    <img
+      src={brossidolsImage}
+      className="object-contain w-full h-full"
+      alt="Jewellery"
+    />
+  </div>
 
-        <div className=" rounded-xl overflow-hidden  h-[300px]">
-          <img
-            src={cleaningImage}
-            alt=""
-            className=" object-contain"    
-          />
-        </div>
-      </div>
+  <div className="rounded-xl overflow-hidden  flex justify-center">
+    <img
+      src={cleaningImage}
+      alt="Cow Dung Product"
+      className="object-contain w-full h-full"
+    />
+  </div>
+</div>
 
       <ItemsComponent type="fertilizers" name="Fertilizers" />
 
 
-      <div className="flex items-center justify-center gap-6">
-        <div className="rounded-xl overflow-hidden   h-[300px]">
-          <img
-            src={stationaryImage  }
-            className=" object-contain"
-            alt="Image"
-          />
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-center">
+  <div className="rounded-xl overflow-hidden  flex justify-center">
+    <img
+      src={stationaryImage}
+      className="object-contain w-full h-full"
+      alt="Jewellery"
+    />
+  </div>
 
-        <div className=" rounded-xl overflow-hidden  h-[300px]">
-          <img
-            src={ ecofriendlyImage}
-            alt=""
-            className=" object-contain"    
-          />
-        </div>
-      </div>
+  <div className="rounded-xl overflow-hidden  flex justify-center">
+    <img
+      src={ecofriendlyImage}
+      alt="Cow Dung Product"
+      className="object-contain w-full h-full"
+    />
+  </div>
+</div>
 
       <ItemsComponent type="beverages" name="Beverages" />
 
-      <div className="flex items-center justify-center gap-6">
-        <div className="rounded-xl overflow-hidden   h-[300px]">
-          <img
-            src={onegramgoldImage  }
-            className=" object-contain"
-            alt="Image"
-          />
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-center">
+  <div className="rounded-xl overflow-hidden  flex justify-center">
+    <img
+      src={onegramgoldImage}
+      className="object-contain w-full h-full"
+      alt="Jewellery"
+    />
+  </div>
 
-        <div className=" rounded-xl overflow-hidden  h-[300px]">
-          <img
-            src={graftingplants}
-            alt=""
-            className=" object-contain"    
-          />
-        </div>
-      </div>
+  <div className="rounded-xl overflow-hidden  flex justify-center">
+    <img
+      src={graftingplants}
+      alt="Cow Dung Product"
+      className="object-contain w-full h-full"
+    />
+  </div>
+</div>
 
 
       <ItemsComponent type="beautycare" name="Beauty care" />
 
-      <div className="flex items-center justify-center gap-6">
-        <div className="rounded-xl overflow-hidden   h-[300px]">
-          <img
-            src={fertilizers  }
-            className=" object-contain"
-            alt="Image"
-          />
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-center">
+  <div className="rounded-xl overflow-hidden  flex justify-center">
+    <img
+      src={fertilizers}
+      className="object-contain w-full h-full"
+      alt="Jewellery"
+    />
+  </div>
 
-        <div className=" rounded-xl overflow-hidden  h-[300px]">
-          <img
-            src={beverages}
-            alt=""
-            className=" object-contain"    
-          />
-        </div>
-      </div>
+  <div className="rounded-xl overflow-hidden  flex justify-center">
+    <img
+      src={beverages}
+      alt="Cow Dung Product"
+      className="object-contain w-full h-full"
+    />
+  </div>
+</div>
 
       <ItemsComponent type="groceryitems" name="Grocery Items" />
 
-      <div className="flex items-center justify-center gap-6">
-        <div className="rounded-xl overflow-hidden   h-[300px]">
-          <img
-            src={clothing  }
-            className=" object-contain"
-            alt="Image"
-          />
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-center">
+  <div className="rounded-xl overflow-hidden  flex justify-center">
+    <img
+      src={clothing}
+      className="object-contain w-full h-full"
+      alt="Jewellery"
+    />
+  </div>
 
-        <div className=" rounded-xl overflow-hidden  h-[300px]">
-          <img
-            src={sanitarypads}
-            alt=""
-            className=" object-contain"    
-          />
-        </div>
-      </div>
+  <div className="rounded-xl overflow-hidden  flex justify-center">
+    <img
+      src={sanitarypads}
+      alt="Cow Dung Product"
+      className="object-contain w-full h-full"
+    />
+  </div>
+</div>
 
       <ItemsComponent type="cowdungproducts" name="Cow Dung Products" />
 
-      <div className="flex items-center justify-center gap-6">
-        <div className="rounded-xl overflow-hidden   h-[300px]">
-          <img
-            src={grocery  }
-            className=" object-contain"
-            alt="Image"
-          />
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-center">
+  <div className="rounded-xl overflow-hidden  flex justify-center">
+    <img
+      src={grocery}
+      className="object-contain w-full h-full"
+      alt="Jewellery"
+    />
+  </div>
 
-        <div className=" rounded-xl overflow-hidden  h-[300px]">
-          <img
-            src={hospital}
-            alt=""
-            className=" object-cover"    
-          />
-        </div>
-      </div>
+  <div className="rounded-xl overflow-hidden  flex justify-center">
+    <img
+      src={hospital}
+      alt="Cow Dung Product"
+      className="object-contain w-full h-full"
+    />
+  </div>
+</div>
 
       <ItemsComponent type="sanitarynapkins" name=" Sanitary Napkins" />
 
-      <div className="flex items-center justify-center gap-6">
-        <div className="rounded-xl overflow-hidden   h-[300px]">
-          <img
-            src={healthcare  }
-            className=" object-contain"
-            alt="Image"
-          />
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-center">
+  <div className="rounded-xl overflow-hidden  flex justify-center">
+    <img
+      src={healthcare}
+      className="object-contain w-full h-full"
+      alt="Jewellery"
+    />
+  </div>
 
-        <div className=" rounded-xl overflow-hidden  h-[300px]">
-          <img
-            src={watermachine}
-            alt=""
-            className=" object-contain"    
-          />
-        </div>
-      </div>
+  <div className="rounded-xl overflow-hidden  flex justify-center">
+    <img
+      src={watermachine}
+      alt="Cow Dung Product"
+      className="object-contain w-full h-full"
+    />
+  </div>
+</div>
 
       <ItemsComponent type="clothing" name=" Clothing" />
 
-      <div className="flex items-center justify-center gap-6">
-        <div className="rounded-xl overflow-hidden   h-[300px]">
-          <img
-            src={giftsandarts  }
-            className=" object-contain"
-            alt="Image"
-          />
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-center">
+  <div className="rounded-xl overflow-hidden  flex justify-center">
+    <img
+      src={giftsandarts}
+      className="object-contain w-full h-full"
+      alt="Jewellery"
+    />
+  </div>
 
-        <div className=" rounded-xl overflow-hidden  h-[300px]">
-          <img
-            src={household}
-            alt=""
-            className=" object-contain"    
-          />
-        </div>
-      </div>
+  <div className="rounded-xl overflow-hidden  flex justify-center">
+    <img
+      src={household}
+      alt="Cow Dung Product"
+      className="object-contain w-full h-full"
+    />
+  </div>
+</div>
 
 
       <ItemsComponent type="ecofriendlyproducts" name="Ecofriendly Products" />
