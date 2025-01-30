@@ -8,6 +8,7 @@ import { data5 } from "../components/ImageData";
 import { data6 } from "../components/ImageData";
 import { data7 } from "../components/ImageData";
 import { data8 } from "../components/ImageData";
+import { Link } from "react-router-dom";
 
 const ItemsComponent = ({ type, name }) => {
   const link = "/" + type;
@@ -38,9 +39,9 @@ const ItemsComponent = ({ type, name }) => {
           <div className="bg-blue-600 w-10 h-1 rounded-sm mt-1"></div>
         </h1>
 
-        <a href={link} className="text-blue-600 text-sm sm:text-base">
+        <Link to={link} className="text-blue-600 text-sm sm:text-base">
           View All
-        </a>
+        </Link>
       </div>
 
       <div className="mt-5">
