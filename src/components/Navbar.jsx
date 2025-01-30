@@ -6,6 +6,7 @@ const Navbar = () => {
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
 
+
   const navLinks = [
     { name: "Gifts & Arts", path: "/giftsandarts" },
     { name: "Food Items", path: "/fooditems" },
@@ -42,10 +43,13 @@ const Navbar = () => {
         <div className="hidden md:flex items-center">
           <select className="p-2 border border-blue-500 outline-none rounded-l-lg">
             <option value="">Choose Option</option>
-            <option value="">Redmi</option>
-            <option value="">Oppo</option>
-            <option value="">Airtel</option>
-            <option value="">Idea</option>
+           {
+            navLinks.map((link, index) => (
+              <option key={index} value={link.path}>
+                {link.name}
+              </option>
+            ))
+          }
           </select>
           <input
             placeholder="Search...."
